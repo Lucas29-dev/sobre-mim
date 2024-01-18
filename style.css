@@ -260,23 +260,12 @@ a {
     .container__contatos__ancoras {
         width: 50%;
     }
+    .container__contatos__ancoras:hover {
+        width: 55%;
+    }
+
 }
-@media (min-width:750px) and (max-width: 900px){
-    nav {
-        padding-left: 6%;
-    }
-    .imagem-Lucas {
-        height: 30%;
-        
-    }
-    .container__contatos__ancoras {
-        width: 50%;
-    }
-}
-@media  (max-width: 750px) {
-    .cabecalho {
-        padding: 3%;
-    }
+@media (min-width: 220px) and (max-width: 750px) {
     nav {
         padding: 10%;
     }
@@ -297,7 +286,7 @@ a {
         width: 90%;
     }
     .container__contatos__ancoras:hover {
-        width: 95%;
+        width: 90%;
     }
     .imagem-Lucas {
         margin: 0;
@@ -305,4 +294,39 @@ a {
         margin-top: 10%;
     }
 
+}
+@media (max-width:300px){
+    body {
+        width: 100%;
+    }
+    .cabecalho {
+        padding: 1rem 4rem 1rem 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    nav {
+        padding: 0;
+        align-items: center;
+    }
+    .container, .container-resume {
+        flex-direction: column-reverse;
+        gap: 1rem;
+        margin: 2%;
+        padding: 2%;
+        width: 100%;
+    }
+    .container__apresentacao{
+        width: 100%;
+    }
+    .container__contatos__ancoras {
+        width: 100%;
+        padding: 15%;
+        margin-left: 20%;
+    }
+    .rodape {
+        padding: 2.5rem;
+        margin: 0;
+        width: 100%;
+        
+    }
 }
