@@ -4,6 +4,7 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Roboto+Mono&display=swap');
 
+
 :root{
     --cor-titulo:#0A043C;
     --cor-primaria: #3b7fe6;
@@ -23,6 +24,8 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     height: 100vh;
+    width: 100vh;
+
 }
 .cabecalho{
     color: white;
@@ -265,7 +268,7 @@ a {
     }
 
 }
-@media (min-width: 220px) and (max-width: 750px) {
+@media (min-width: 300px) and (max-width: 750px) {
     nav {
         padding: 10%;
     }
