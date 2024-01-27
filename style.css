@@ -268,7 +268,7 @@ a {
     }
 
 }
-@media (min-width: 300px) and (max-width: 750px) {
+@media (min-width: 330px) and (max-width: 750px) {
     nav {
         padding: 10%;
     }
@@ -298,7 +298,7 @@ a {
     }
 
 }
-@media (max-width:300px){
+@media (max-width:330px){
     body {
         width: 100%;
     }
@@ -322,9 +322,9 @@ a {
         width: 100%;
     }
     .container__contatos__ancoras {
-        width: 100%;
+        width: 30%;
         padding: 15%;
-        margin-left: 20%;
+       
     }
     .rodape {
         padding: 2.5rem;
